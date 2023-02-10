@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "niko-cli cli",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -15,5 +15,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
-  }
+  },
+  "gitHead": "c83c2d16927eb3b7a6f61bcbe39f937ffb816b7b"
 }
