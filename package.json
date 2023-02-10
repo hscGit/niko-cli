@@ -1,0 +1,14 @@
+{
+  "name": "niko-cli",
+  "version": "1.0.0",
+  "description": "niko-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}
