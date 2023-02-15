@@ -10,10 +10,4 @@ commands/**/yarn.lock
 models/**/yarn.lock
 utils/**/yarn.lock
 
-package-lock.json
-core/**/package-lock.json
-commands/**/package-lock.json
-models/**/package-lock.json
-utils/**/package-lock.json
-
 lerna-debug.log
