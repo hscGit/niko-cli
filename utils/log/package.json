@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/log",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "niko-cli log",
   "keywords": [
     "log"
@@ -24,5 +24,6 @@
   },
   "dependencies": {
     "npmlog": "^7.0.1"
-  }
+  },
+  "gitHead": "2f8989985aad4255be1c85c3b110bd6ba35adb70"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/cli",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "niko-cli cli",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -22,7 +22,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "901b283a00f15b6c0676de4d86453ddb74d51137",
+  "gitHead": "2f8989985aad4255be1c85c3b110bd6ba35adb70",
   "dependencies": {
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1"
