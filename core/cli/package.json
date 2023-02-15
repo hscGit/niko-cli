@@ -5,6 +5,9 @@
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
   "license": "ISC",
+  "bin": {
+    "niko": "./bin/index.js"
+  },
   "main": "bin/index.js",
   "directories": {
     "lib": "lib",
@@ -19,5 +22,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "901b283a00f15b6c0676de4d86453ddb74d51137"
+  "gitHead": "901b283a00f15b6c0676de4d86453ddb74d51137",
+  "dependencies": {
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1"
+  }
 }
