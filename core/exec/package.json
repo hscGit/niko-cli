@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/exec",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "niko-cli execute package",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "node ./__tests__/@niko-cli/exec.test.js"
   },
   "dependencies": {
-    "@niko-cli/package": "file:../../models/package",
     "@niko-cli/log": "file:../../utils/log",
+    "@niko-cli/package": "file:../../models/package",
     "@niko-cli/utils": "file:../../utils/utils"
   }
 }
