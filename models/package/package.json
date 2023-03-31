@@ -24,12 +24,13 @@
     "test": "node ./__tests__/@niko-cli/package.test.js"
   },
   "dependencies": {
-    "@niko-cli/format-path": "file:../../utils/format-path",
-    "@niko-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@niko-cli/to-type": "file:../../utils/to-type",
+    "@niko-cli/format-path": "^1.0.3",
+    "@niko-cli/get-npm-info": "^1.0.3",
+    "@niko-cli/to-type": "^1.0.3",
     "fs-extra": "^11.1.0",
     "npminstall": "^7.5.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }

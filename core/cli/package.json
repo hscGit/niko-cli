@@ -23,12 +23,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2f8989985aad4255be1c85c3b110bd6ba35adb70",
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa",
   "dependencies": {
-    "@niko-cli/exec": "file:../exec",
-    "@niko-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@niko-cli/init": "file:../../commands/init",
-    "@niko-cli/log": "file:../../utils/log",
+    "@niko-cli/exec": "^1.0.3",
+    "@niko-cli/get-npm-info": "^1.0.3",
+    "@niko-cli/init": "^1.0.3",
+    "@niko-cli/log": "^1.0.3",
     "colors": "^1.4.0",
     "commander": "^10.0.0",
     "dotenv": "^16.0.3",

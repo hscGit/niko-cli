@@ -25,5 +25,6 @@
   },
   "dependencies": {
     "ora": "^5.0.0"
-  }
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }

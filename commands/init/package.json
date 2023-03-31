@@ -27,11 +27,11 @@
     "test": "node ./__tests__/@niko-cli/init.test.js"
   },
   "dependencies": {
-    "@niko-cli/command": "file:../../models/command",
-    "@niko-cli/log": "file:../../utils/log",
-    "@niko-cli/package": "file:../../models/package",
-    "@niko-cli/request": "file:../../utils/request",
-    "@niko-cli/utils": "file:../../utils/utils",
+    "@niko-cli/command": "^1.0.3",
+    "@niko-cli/log": "^1.0.3",
+    "@niko-cli/package": "^1.0.3",
+    "@niko-cli/request": "^1.0.3",
+    "@niko-cli/utils": "^1.0.3",
     "ejs": "^3.1.9",
     "fs-extra": "^11.1.0",
     "glob": "^9.3.0",
@@ -39,5 +39,6 @@
     "kebab-case": "^1.0.2",
     "semver": "^7.3.8",
     "user-home": "^3.0.0"
-  }
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }

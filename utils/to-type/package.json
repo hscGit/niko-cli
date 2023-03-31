@@ -22,5 +22,6 @@
   },
   "scripts": {
     "test": "node ./__tests__/@niko-cli/to-type.test.js"
-  }
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }

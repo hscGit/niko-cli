@@ -24,9 +24,10 @@
     "test": "node ./__tests__/@niko-cli/command.test.js"
   },
   "dependencies": {
-    "@niko-cli/log": "file:../../utils/log",
-    "@niko-cli/to-type": "file:../../utils/to-type",
+    "@niko-cli/log": "^1.0.3",
+    "@niko-cli/to-type": "^1.0.3",
     "colors": "^1.4.0",
     "semver": "^7.3.8"
-  }
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }

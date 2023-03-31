@@ -24,8 +24,9 @@
     "test": "node ./__tests__/@niko-cli/exec.test.js"
   },
   "dependencies": {
-    "@niko-cli/log": "file:../../utils/log",
-    "@niko-cli/package": "file:../../models/package",
-    "@niko-cli/utils": "file:../../utils/utils"
-  }
+    "@niko-cli/log": "^1.0.3",
+    "@niko-cli/package": "^1.0.3",
+    "@niko-cli/utils": "^1.0.3"
+  },
+  "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
 }
