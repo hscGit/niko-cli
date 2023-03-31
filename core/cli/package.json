@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "niko-cli cli",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -25,10 +25,10 @@
   },
   "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa",
   "dependencies": {
-    "@niko-cli/exec": "^1.0.3",
-    "@niko-cli/get-npm-info": "^1.0.3",
-    "@niko-cli/init": "^1.0.3",
-    "@niko-cli/log": "^1.0.3",
+    "@niko-cli/exec": "^1.0.4",
+    "@niko-cli/get-npm-info": "^1.0.4",
+    "@niko-cli/init": "^1.0.4",
+    "@niko-cli/log": "^1.0.4",
     "colors": "^1.4.0",
     "commander": "^10.0.0",
     "dotenv": "^16.0.3",

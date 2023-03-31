@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/init",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "niko-cli init",
   "keywords": [
     "init"
@@ -27,11 +27,11 @@
     "test": "node ./__tests__/@niko-cli/init.test.js"
   },
   "dependencies": {
-    "@niko-cli/command": "^1.0.3",
-    "@niko-cli/log": "^1.0.3",
-    "@niko-cli/package": "^1.0.3",
-    "@niko-cli/request": "^1.0.3",
-    "@niko-cli/utils": "^1.0.3",
+    "@niko-cli/command": "^1.0.4",
+    "@niko-cli/log": "^1.0.4",
+    "@niko-cli/package": "^1.0.4",
+    "@niko-cli/request": "^1.0.4",
+    "@niko-cli/utils": "^1.0.4",
     "ejs": "^3.1.9",
     "fs-extra": "^11.1.0",
     "glob": "^9.3.0",

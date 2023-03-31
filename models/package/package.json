@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
     "test": "node ./__tests__/@niko-cli/package.test.js"
   },
   "dependencies": {
-    "@niko-cli/format-path": "^1.0.3",
-    "@niko-cli/get-npm-info": "^1.0.3",
-    "@niko-cli/to-type": "^1.0.3",
+    "@niko-cli/format-path": "^1.0.4",
+    "@niko-cli/get-npm-info": "^1.0.4",
+    "@niko-cli/to-type": "^1.0.4",
     "fs-extra": "^11.1.0",
     "npminstall": "^7.5.0",
     "path-exists": "^4.0.0",

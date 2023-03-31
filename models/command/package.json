@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/command",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "node ./__tests__/@niko-cli/command.test.js"
   },
   "dependencies": {
-    "@niko-cli/log": "^1.0.3",
-    "@niko-cli/to-type": "^1.0.3",
+    "@niko-cli/log": "^1.0.4",
+    "@niko-cli/to-type": "^1.0.4",
     "colors": "^1.4.0",
     "semver": "^7.3.8"
   },
