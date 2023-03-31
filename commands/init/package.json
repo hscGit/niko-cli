@@ -1,0 +1,43 @@
+{
+  "name": "@niko-cli/init",
+  "version": "1.0.2",
+  "description": "niko-cli init",
+  "keywords": [
+    "init"
+  ],
+  "author": "hscer <2862664216@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hscer/niko-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@niko-cli/init.test.js"
+  },
+  "dependencies": {
+    "@niko-cli/command": "file:../../models/command",
+    "@niko-cli/log": "file:../../utils/log",
+    "@niko-cli/package": "file:../../models/package",
+    "@niko-cli/request": "file:../../utils/request",
+    "@niko-cli/utils": "file:../../utils/utils",
+    "ejs": "^3.1.9",
+    "fs-extra": "^11.1.0",
+    "glob": "^9.3.0",
+    "inquirer": "^8.2.5",
+    "kebab-case": "^1.0.2",
+    "semver": "^7.3.8",
+    "user-home": "^3.0.0"
+  }
+}

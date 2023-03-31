@@ -17,14 +17,30 @@
     "lib"
   ],
   "scripts": {
-    "test": "node ./__tests__/cli.test.js"
+    "build": "webpack",
+    "dev": "webpack -w"
   },
   "publishConfig": {
     "access": "public"
   },
   "gitHead": "2f8989985aad4255be1c85c3b110bd6ba35adb70",
   "dependencies": {
+    "@niko-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@niko-cli/log": "file:../../utils/log",
+    "@niko-cli/init": "file:../../commands/init",
+    "@niko-cli/exec": "file:../exec",
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
     "import-local": "^3.1.0",
-    "npmlog": "^7.0.1"
+    "npmlog": "^7.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.8",
+    "user-home": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }

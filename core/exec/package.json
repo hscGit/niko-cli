@@ -1,0 +1,31 @@
+{
+  "name": "@niko-cli/exec",
+  "version": "1.0.2",
+  "description": "niko-cli execute package",
+  "author": "hscer <2862664216@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hscer/niko-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@niko-cli/exec.test.js"
+  },
+  "dependencies": {
+    "@niko-cli/package": "file:../../models/package",
+    "@niko-cli/log": "file:../../utils/log",
+    "@niko-cli/utils": "file:../../utils/utils"
+  }
+}
