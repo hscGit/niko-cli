@@ -8,7 +8,7 @@ module.exports = function () {
             },
             npmName: "niko-cli-template-react18",
             tag: "['project']",
-            version: "0.1.0",
+            version: "1.0.1",
             name: "react18标准模版",
             type: "normal",
             installCommand: "npm install",
