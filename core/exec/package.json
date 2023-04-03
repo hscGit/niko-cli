@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/exec",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "niko-cli execute package",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@niko-cli/log": "^1.0.4",
-    "@niko-cli/package": "^1.0.4",
+    "@niko-cli/package": "^1.0.7",
     "@niko-cli/utils": "^1.0.4"
   },
   "gitHead": "d40df69cea2d9214b059fde41f83af6b6fd9cafa"
