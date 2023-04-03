@@ -8,6 +8,12 @@
   "bin": {
     "niko": "./bin/index.js"
   },
+  "keywords": [
+    "niko",
+    "cli",
+    "niko-cli",
+    "@niko-cli/cli"
+  ],
   "main": "bin/index.js",
   "directories": {
     "lib": "lib",

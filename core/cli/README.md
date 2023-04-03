@@ -1,11 +1,19 @@
-# `cli`
+# `niko-cli`
 
-> TODO: description
+> A one-line command quickly creates a project with multiple and optional project templates.
 
 ## Usage
 
+##### Global installation：
 ```
-const cli = require('cli');
+npm install @niko-cli/cli -g
+or
+yarn add @niko-cli/cli -g
+```
 
-// TODO: DEMONSTRATE API
+##### Create the folder and open it in the terminal. Type the command：
 ```
+niko init [project_name]
+```
+##### options:
+project_name: Your project name.
