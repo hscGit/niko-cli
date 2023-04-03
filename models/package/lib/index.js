@@ -26,6 +26,8 @@ class Package {
         this.packageName = options.packageName;
         // package的version
         this.packageVersion = options.packageVersion;
+        // package的缓存目录前缀
+        this.cacheFilePathPrefix = this.packageName.replace('/', '+');
     }
 
     async prepare() {
@@ -38,11 +40,11 @@ class Package {
     }
 
     get cacheFilePath() {
-        return path.resolve(this.storeDir, '.store', `${this.packageName}@${this.packageVersion}`, 'node_modules', this.packageName);
+        return path.resolve(this.storeDir, '.store', `${this.cacheFilePathPrefix}@${this.packageVersion}`, 'node_modules', this.packageName);
     }
 
     getSpecificCacheFilePath(packageVersion) {
-        return path.resolve(this.storeDir, '.store', `${this.packageName}@${packageVersion}`, 'node_modules', this.packageName);
+        return path.resolve(this.storeDir, '.store', `${this.cacheFilePathPrefix}@${packageVersion}`, 'node_modules', this.packageName);
     }
 
     // 判断当前Package是否存在
@@ -95,10 +97,10 @@ class Package {
     getRootFilePath() {
         function _getRootFIle(targetPath) {
             // 1. 获取package.json所在的目录
-         const dir = pkgDir(targetPath);
-         if (dir) {
-             // 2. 读取package.json
-             const pkgFile = require(path.resolve(dir, 'package.json'));
+            const dir = pkgDir(targetPath);
+            if (dir) {
+                // 2. 读取package.json
+                const pkgFile = require(path.resolve(dir, 'package.json'));
              // 3. 找到mian输出位路径
              if (pkgFile && pkgFile.main) {
                  // 4. 做操作不同系统的路径的兼容
