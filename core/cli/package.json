@@ -1,6 +1,6 @@
 {
   "name": "@niko-cli/cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "niko-cli cli",
   "author": "hscer <2862664216@qq.com>",
   "homepage": "",
@@ -33,7 +33,7 @@
   "dependencies": {
     "@niko-cli/exec": "^1.0.7",
     "@niko-cli/get-npm-info": "^1.0.4",
-    "@niko-cli/init": "^1.0.7",
+    "@niko-cli/init": "^1.0.8",
     "@niko-cli/log": "^1.0.4",
     "colors": "^1.4.0",
     "commander": "^10.0.0",
